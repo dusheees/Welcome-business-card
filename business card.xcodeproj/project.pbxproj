@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551A52BC2727F96F00619C7E /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 551A52B92727F96F00619C7E /* Screenshot02.png */; };
+		551A52BD2727F96F00619C7E /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 551A52BA2727F96F00619C7E /* Screenshot01.png */; };
+		551A52BE2727F96F00619C7E /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 551A52BB2727F96F00619C7E /* Screenshot03.png */; };
 		55FCF54D27274324002DD514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FCF54C27274324002DD514 /* AppDelegate.swift */; };
 		55FCF54F27274324002DD514 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FCF54E27274324002DD514 /* SceneDelegate.swift */; };
-		55FCF55127274324002DD514 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FCF55027274324002DD514 /* ViewController.swift */; };
 		55FCF55427274324002DD514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FCF55227274324002DD514 /* Main.storyboard */; };
 		55FCF55627274324002DD514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FCF55527274324002DD514 /* Assets.xcassets */; };
 		55FCF55927274324002DD514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FCF55727274324002DD514 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		551A52B92727F96F00619C7E /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot02.png; path = "скриншоты/Screenshot02.png"; sourceTree = SOURCE_ROOT; };
+		551A52BA2727F96F00619C7E /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot01.png; path = "скриншоты/Screenshot01.png"; sourceTree = SOURCE_ROOT; };
+		551A52BB2727F96F00619C7E /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot03.png; path = "скриншоты/Screenshot03.png"; sourceTree = SOURCE_ROOT; };
 		55FCF54927274324002DD514 /* business card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "business card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FCF54C27274324002DD514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FCF54E27274324002DD514 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55FCF55027274324002DD514 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55FCF55327274324002DD514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55FCF55527274324002DD514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55FCF55827274324002DD514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		551A52B82727F8B000619C7E /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				551A52BA2727F96F00619C7E /* Screenshot01.png */,
+				551A52B92727F96F00619C7E /* Screenshot02.png */,
+				551A52BB2727F96F00619C7E /* Screenshot03.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		55FCF54027274324002DD514 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,9 @@
 		55FCF54B27274324002DD514 /* business card */ = {
 			isa = PBXGroup;
 			children = (
+				551A52B82727F8B000619C7E /* Screenshots */,
 				55FCF54C27274324002DD514 /* AppDelegate.swift */,
 				55FCF54E27274324002DD514 /* SceneDelegate.swift */,
-				55FCF55027274324002DD514 /* ViewController.swift */,
 				55FCF55227274324002DD514 /* Main.storyboard */,
 				55FCF55527274324002DD514 /* Assets.xcassets */,
 				55FCF55727274324002DD514 /* LaunchScreen.storyboard */,
@@ -127,7 +141,10 @@
 			files = (
 				55FCF55927274324002DD514 /* LaunchScreen.storyboard in Resources */,
 				55FCF55627274324002DD514 /* Assets.xcassets in Resources */,
+				551A52BE2727F96F00619C7E /* Screenshot03.png in Resources */,
 				55FCF55427274324002DD514 /* Main.storyboard in Resources */,
+				551A52BD2727F96F00619C7E /* Screenshot01.png in Resources */,
+				551A52BC2727F96F00619C7E /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FCF55127274324002DD514 /* ViewController.swift in Sources */,
 				55FCF54D27274324002DD514 /* AppDelegate.swift in Sources */,
 				55FCF54F27274324002DD514 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +308,7 @@
 				DEVELOPMENT_TEAM = 2ZAR2UCDS8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "business card/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Welcome;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +337,7 @@
 				DEVELOPMENT_TEAM = 2ZAR2UCDS8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "business card/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Welcome;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
